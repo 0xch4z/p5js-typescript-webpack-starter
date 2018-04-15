@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true
+  },
+  "include": [
+    "node_modules/p5/lib/p5.d.ts",
+    "src/**/*.ts",
+    "types/**/*.d.ts"
+  ]
+}
